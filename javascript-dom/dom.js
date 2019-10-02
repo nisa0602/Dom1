@@ -34,6 +34,31 @@
 // items[1].style.fontWeight = 'bold';
 // items[1].style.backgroundColor = 'yellow';
 
+//Function
+function switchKu() {
+    var text;
+    var fruits = document.getElementById("myInput").value;
+  
+    switch(fruits) {
+      case "One":
+        text = "satu";
+        console.log(text);
+      break;
+      case "Two":
+      text = "dua";
+      console.log(text);
+      break;
+      case "Three":
+      text = "tiga";
+      console.log(text);
+      break;
+      default:
+      text = "I have never seen them";
+      console.log(text);
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+
 // // Gives error
 // //items.style.backgroundColor = '#f4f4f4';
 
